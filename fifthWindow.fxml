@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0B666A;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.classversion_20221150.Controller">
+    <children>
+        <Label layoutX="22.0" layoutY="48.0" prefHeight="30.0" prefWidth="272.0" text="Enter Customer First Name" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <TextField fx:id="searchLabel" layoutX="300.0" layoutY="51.0" prefHeight="25.0" prefWidth="244.0" />
+        <Button fx:id="searchButton" layoutX="213.0" layoutY="94.0" mnemonicParsing="false" onAction="#showSearchCustomerDetails" prefHeight="26.0" prefWidth="164.0" text="Search">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="detailsTextField" layoutX="41.0" layoutY="141.0" prefHeight="199.0" prefWidth="515.0">
+            <font>
+                <Font size="25.0" />
+            </font></TextArea>
+        <Button fx:id="goBackButton" layoutX="445.0" layoutY="353.0" mnemonicParsing="false" onAction="#handleGoBack" prefHeight="40.0" prefWidth="114.0" text="Go Back">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

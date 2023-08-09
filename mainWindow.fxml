@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0B666A;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.classversion_20221150.Controller">
+  <children>
+    <Label layoutX="102.0" layoutY="30.0" text="Food Fave Queue Management System" textFill="WHITE">
+      <font>
+        <Font name="System Bold Italic" size="22.0" />
+      </font>
+    </Label>
+    <Button fx:id="viewQueuesButton" layoutX="188.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleViewQueues" prefHeight="43.0" prefWidth="223.0" style="-fx-background-color: #A7EDE7;" text="View Queues">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Button>
+    <Button fx:id="customerDetailsButton" layoutX="188.0" layoutY="167.0" mnemonicParsing="false" onAction="#handleCustomerDetails" prefHeight="44.0" prefWidth="223.0" style="-fx-background-color: #A7EDE7;" text="Waiting List Details">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Button>
+    <Button fx:id="quitButton" layoutX="188.0" layoutY="318.0" mnemonicParsing="false" onAction="#handleQuit" prefHeight="43.0" prefWidth="223.0" style="-fx-background-color: #A7EDE7;" text="Quit">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Button>
+    <Button fx:id="searchCustomerButton" layoutX="188.0" layoutY="244.0" mnemonicParsing="false" onAction="#searchCustomers" prefHeight="43.0" prefWidth="223.0" style="-fx-background-color: #A7EDE7;" text="Search Customers">
+      <font>
+        <Font name="System Bold" size="20.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>

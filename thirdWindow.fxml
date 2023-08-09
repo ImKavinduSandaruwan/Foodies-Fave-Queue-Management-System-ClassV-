@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0B666A;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.classversion_20221150.Controller">
+    <children>
+        <Label layoutX="190.0" layoutY="28.0" prefHeight="36.0" prefWidth="280.0" text="Waiting List Details" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="customerDetailsTextArea" layoutX="14.0" layoutY="64.0" prefHeight="275.0" prefWidth="568.0">
+            <font>
+                <Font size="22" />
+            </font>
+        </TextArea>
+        <Button fx:id="goBackButton" layoutX="471.0" layoutY="346.0" mnemonicParsing="false" onAction="#handleGoBack" text="Go Back">
+            <font>
+                <Font name="System Bold" size="20" />
+            </font>
+        </Button>
+        <Button fx:id="clickButton2" layoutX="26.0" layoutY="345.0" mnemonicParsing="false" onAction="#showCustomerDetails" prefHeight="43.0" prefWidth="165.0" text="Click to view">
+            <font>
+                <Font name="System Bold" size="20" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
